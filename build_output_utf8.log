@@ -1,0 +1,549 @@
+﻿
+> stocks_app@0.1.0 build
+> next build --turbopack
+
+node.exe :  ΓÜá Warning: 
+Next.js inferred your 
+workspace root, but it 
+may not be correct.
+At C:\Program 
+Files\nodejs\npm.ps1:29 
+char:3
++   & $NODE_EXE 
+$NPM_CLI_JS $args
++   ~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~
+    + CategoryInfo        
+      : NotSpecified: (   
+  ΓÜá Warning: N...not    
+ be correct.:String) [    
+], RemoteException
+    + FullyQualifiedError 
+   Id : NativeCommandErr  
+  or
+ 
+ We detected multiple 
+lockfiles and selected 
+the directory of C:\Users\
+DELL\package-lock.json as 
+the root directory.
+ To silence this warning, 
+set `turbopack.root` in 
+your Next.js config, or 
+consider removing one of 
+the lockfiles if it's not 
+needed.
+   See https://nextjs.org/
+docs/app/api-reference/con
+fig/next-config-js/turbopa
+ck#root-directory for 
+more information.
+ Detected additional 
+lockfiles: 
+   * C:\Users\DELL\Downloa
+ds\BROKERAGE\BROKERAGE\pac
+kage-lock.json
+   * C:\Users\DELL\Downloa
+ds\package-lock.json
+
+   Γû▓ Next.js 15.5.2 (Turbopack)
+   - Environments: .env.local
+
+   Creating an optimized production build ...
+ Γ£ô Finished writing to disk in 213ms
+
+> Build error occurred
+Error: Turbopack build 
+failed with 6 errors:
+./Downloads/BROKERAGE/BROK
+ERAGE/app/(auth)/layout.ts
+x:3:1
+Module not found: Can't 
+resolve 
+'@/lib/better-auth/auth'
+[0m [90m 1 |[39m 
+[36mimport[39m 
+[33mLink[39m 
+[36mfrom[39m [32m"next/
+link"[39m[33m;[39m
+ [90m 2 |[39m 
+[36mimport[39m 
+[33mImage[39m 
+[36mfrom[39m [32m"next/
+image"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 
+3 |[39m [36mimport[39m 
+{auth} [36mfrom[39m [32
+m"@/lib/better-auth/auth"
+[39m[33m;[39m
+ [90m   |[39m [31m[1m^
+[22m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1m^[
+22m[39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39m[31
+m[1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1m^[
+22m[39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39m[31
+m[1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1m^[
+22m[39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39m[31
+m[1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m[1
+m^[22m[39m
+ [90m 4 |[39m 
+[36mimport[39m 
+{headers} [36mfrom[39m 
+[32m"next/headers"[39m[3
+3m;[39m
+ [90m 5 |[39m 
+[36mimport[39m 
+{redirect} [36mfrom[39m 
+[32m"next/navigation"[39
+m[33m;[39m
+ [90m 6 |[39m[0m
+
+Import map: aliased to 
+relative 
+'./lib/better-auth/auth' 
+inside of [project]/Downlo
+ads/BROKERAGE/BROKERAGE
+
+
+https://nextjs.org/docs/me
+ssages/module-not-found
+
+
+./Downloads/BROKERAGE/BROK
+ERAGE/app/(auth)/layout.ts
+x:3:1
+Module not found: Can't 
+resolve 
+'@/lib/better-auth/auth'
+[0m [90m 1 |[39m 
+[36mimport[39m 
+[33mLink[39m 
+[36mfrom[39m [32m"next/
+link"[39m[33m;[39m
+ [90m 2 |[39m 
+[36mimport[39m 
+[33mImage[39m 
+[36mfrom[39m [32m"next/
+image"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 
+3 |[39m [36mimport[39m 
+{auth} [36mfrom[39m [32
+m"@/lib/better-auth/auth"
+[39m[33m;[39m
+ [90m   |[39m [31m[1m^
+[22m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1m^[
+22m[39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39m[31
+m[1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1m^[
+22m[39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39m[31
+m[1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1m^[
+22m[39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39m[31
+m[1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m[1
+m^[22m[39m
+ [90m 4 |[39m 
+[36mimport[39m 
+{headers} [36mfrom[39m 
+[32m"next/headers"[39m[3
+3m;[39m
+ [90m 5 |[39m 
+[36mimport[39m 
+{redirect} [36mfrom[39m 
+[32m"next/navigation"[39
+m[33m;[39m
+ [90m 6 |[39m[0m
+
+Import map: aliased to 
+relative 
+'./lib/better-auth/auth' 
+inside of [project]/Downlo
+ads/BROKERAGE/BROKERAGE
+
+
+https://nextjs.org/docs/me
+ssages/module-not-found
+
+
+./Downloads/BROKERAGE/BROK
+ERAGE/app/(root)/layout.ts
+x:2:1
+Module not found: Can't 
+resolve 
+'@/lib/better-auth/auth'
+[0m [90m 1 |[39m 
+[36mimport[39m 
+[33mHeader[39m 
+[36mfrom[39m [32m"@/com
+ponents/Header"[39m[33m;
+[39m
+[31m[1m>[22m[39m[90m 
+2 |[39m [36mimport[39m 
+{auth} [36mfrom[39m [32
+m"@/lib/better-auth/auth"
+[39m[33m;[39m
+ [90m   |[39m [31m[1m^
+[22m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1m^[
+22m[39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39m[31
+m[1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1m^[
+22m[39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39m[31
+m[1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1m^[
+22m[39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39m[31
+m[1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m[1
+m^[22m[39m
+ [90m 3 |[39m 
+[36mimport[39m 
+{headers} [36mfrom[39m 
+[32m"next/headers"[39m[3
+3m;[39m
+ [90m 4 |[39m 
+[36mimport[39m 
+{redirect} [36mfrom[39m 
+[32m"next/navigation"[39
+m[33m;[39m
+ [90m 5 |[39m[0m
+
+Import map: aliased to 
+relative 
+'./lib/better-auth/auth' 
+inside of [project]/Downlo
+ads/BROKERAGE/BROKERAGE
+
+
+https://nextjs.org/docs/me
+ssages/module-not-found
+
+
+./Downloads/BROKERAGE/BROK
+ERAGE/app/(root)/layout.ts
+x:2:1
+Module not found: Can't 
+resolve 
+'@/lib/better-auth/auth'
+[0m [90m 1 |[39m 
+[36mimport[39m 
+[33mHeader[39m 
+[36mfrom[39m [32m"@/com
+ponents/Header"[39m[33m;
+[39m
+[31m[1m>[22m[39m[90m 
+2 |[39m [36mimport[39m 
+{auth} [36mfrom[39m [32
+m"@/lib/better-auth/auth"
+[39m[33m;[39m
+ [90m   |[39m [31m[1m^
+[22m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1m^[
+22m[39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39m[31
+m[1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1m^[
+22m[39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39m[31
+m[1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1m^[
+22m[39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39m[31
+m[1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m[1
+m^[22m[39m
+ [90m 3 |[39m 
+[36mimport[39m 
+{headers} [36mfrom[39m 
+[32m"next/headers"[39m[3
+3m;[39m
+ [90m 4 |[39m 
+[36mimport[39m 
+{redirect} [36mfrom[39m 
+[32m"next/navigation"[39
+m[33m;[39m
+ [90m 5 |[39m[0m
+
+Import map: aliased to 
+relative 
+'./lib/better-auth/auth' 
+inside of [project]/Downlo
+ads/BROKERAGE/BROKERAGE
+
+
+https://nextjs.org/docs/me
+ssages/module-not-found
+
+
+./Downloads/BROKERAGE/BROK
+ERAGE/lib/actions/auth.act
+ions.ts:3:1
+Module not found: Can't 
+resolve 
+'@/lib/better-auth/auth'
+[0m [90m 1 |[39m 
+[32m'use 
+server'[39m[33m;[39m
+ [90m 2 |[39m
+[31m[1m>[22m[39m[90m 
+3 |[39m [36mimport[39m 
+{auth} [36mfrom[39m [32
+m"@/lib/better-auth/auth"
+[39m[33m;[39m
+ [90m   |[39m [31m[1m^
+[22m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1m^[
+22m[39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39m[31
+m[1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1m^[
+22m[39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39m[31
+m[1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1m^[
+22m[39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39m[31
+m[1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m[1
+m^[22m[39m
+ [90m 4 |[39m 
+[36mimport[39m 
+{inngest} [36mfrom[39m 
+[32m"@/lib/inngest/client"
+[39m[33m;[39m
+ [90m 5 |[39m 
+[36mimport[39m 
+{headers} [36mfrom[39m 
+[32m"next/headers"[39m[3
+3m;[39m
+ [90m 6 |[39m[0m
+
+Import map: aliased to 
+relative 
+'./lib/better-auth/auth' 
+inside of [project]/Downlo
+ads/BROKERAGE/BROKERAGE
+
+
+https://nextjs.org/docs/me
+ssages/module-not-found
+
+
+./Downloads/BROKERAGE/BROK
+ERAGE/lib/actions/auth.act
+ions.ts:3:1
+Module not found: Can't 
+resolve 
+'@/lib/better-auth/auth'
+[0m [90m 1 |[39m 
+[32m'use 
+server'[39m[33m;[39m
+ [90m 2 |[39m
+[31m[1m>[22m[39m[90m 
+3 |[39m [36mimport[39m 
+{auth} [36mfrom[39m [32
+m"@/lib/better-auth/auth"
+[39m[33m;[39m
+ [90m   |[39m [31m[1m^
+[22m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1m^[
+22m[39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39m[31
+m[1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1m^[
+22m[39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39m[31
+m[1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1m^[
+22m[39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39m[31
+m[1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m[1
+m^[22m[39m
+ [90m 4 |[39m 
+[36mimport[39m 
+{inngest} [36mfrom[39m 
+[32m"@/lib/inngest/client"
+[39m[33m;[39m
+ [90m 5 |[39m 
+[36mimport[39m 
+{headers} [36mfrom[39m 
+[32m"next/headers"[39m[3
+3m;[39m
+ [90m 6 |[39m[0m
+
+Import map: aliased to 
+relative 
+'./lib/better-auth/auth' 
+inside of [project]/Downlo
+ads/BROKERAGE/BROKERAGE
+
+
+https://nextjs.org/docs/me
+ssages/module-not-found
+
+
+    at <unknown> (./Downlo
+ads/BROKERAGE/BROKERAGE/ap
+p/(auth)/layout.tsx:3:1)
+    at <unknown> (https://
+nextjs.org/docs/messages/m
+odule-not-found)
+    at <unknown> (./Downlo
+ads/BROKERAGE/BROKERAGE/ap
+p/(auth)/layout.tsx:3:1)
+    at <unknown> (https://
+nextjs.org/docs/messages/m
+odule-not-found)
+    at <unknown> (./Downlo
+ads/BROKERAGE/BROKERAGE/ap
+p/(root)/layout.tsx:2:1)
+    at <unknown> (https://
+nextjs.org/docs/messages/m
+odule-not-found)
+    at <unknown> (./Downlo
+ads/BROKERAGE/BROKERAGE/ap
+p/(root)/layout.tsx:2:1)
+    at <unknown> (https://
+nextjs.org/docs/messages/m
+odule-not-found)
+    at <unknown> (./Downlo
+ads/BROKERAGE/BROKERAGE/li
+b/actions/auth.actions.ts:
+3:1)
+    at <unknown> (https://
+nextjs.org/docs/messages/m
+odule-not-found)
+    at <unknown> (./Downlo
+ads/BROKERAGE/BROKERAGE/li
+b/actions/auth.actions.ts:
+3:1)
+    at <unknown> (https://
+nextjs.org/docs/messages/m
+odule-not-found)

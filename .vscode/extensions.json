@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "bradlc.vscode-tailwindcss",
+    "esbenp.prettier-vscode",
+    "mongodb.mongodb-vscode",
+    "csstools.postcss-Language-support",
+    "mhutchie.git-graph"
+  ]
+}

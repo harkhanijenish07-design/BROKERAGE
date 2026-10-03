@@ -1,0 +1,1 @@
+Error resolving SRV: querySrv ENOTFOUND _mongodb._tcp.cluster0.bszs4p1.mongodb.net
